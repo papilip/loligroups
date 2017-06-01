@@ -1,5 +1,11 @@
+require "kemal"
+
 require "./loligroups/*"
 
 module Loligroups
-  # TODO Put your code here
+  get "/" do
+    "Hello LoliGroups"
+  end
 end
+
+Kemal.run

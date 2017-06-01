@@ -1,13 +1,16 @@
 name: loligroups
 version: 0.1.0
+crystal: 0.22.0
+license: MIT
 
 authors:
-  -  <>
+  - papilip <me+loligroups@papilip.me>
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
 
 targets:
   loligroups:
     main: src/loligroups.cr
-
-crystal: 0.22.0
-
-license: MIT
