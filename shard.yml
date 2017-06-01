@@ -1,0 +1,13 @@
+name: loligroups
+version: 0.1.0
+
+authors:
+  -  <>
+
+targets:
+  loligroups:
+    main: src/loligroups.cr
+
+crystal: 0.22.0
+
+license: MIT
