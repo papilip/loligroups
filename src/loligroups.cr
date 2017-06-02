@@ -7,6 +7,10 @@ module Loligroups
   get "/" do
     "Hello LoliGroups"
   end
+
+  get "/api" do
+    "Hello this is API"
+  end
 end
 
 binding = nil
